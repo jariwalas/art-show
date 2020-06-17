@@ -101,6 +101,10 @@ function drawScene1() {
   textSize(70);
   textFont('arial');
   text('VIRAL', 200, 125);
+  
+  textSize(12);
+  text('Instructions: Press the LMB to dispense a drop of hand sanitizer.',200,350);
+  text('Use this to hit the viruses that come your way!',200,375);
 }
 
 //Scene2
