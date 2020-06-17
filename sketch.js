@@ -5,7 +5,7 @@ var dropY = 24;
 var vir = [];
 
 function setup() {
-  for (var i = 0; i < 30; i++) {
+  for (var i = 0; i < 100; i++) {
     vir[i] = new virus(random(-200, 200), 400 + i * 300);
   }
 }
